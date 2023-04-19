@@ -1177,8 +1177,6 @@
                                                     <div class="entry-meta media no-bg no-border mt-0 mb-10">
                                                         <div class="media-body pl-0">
                                                             <div class="event-content pull-left flip">
-                                                                <h4 class="entry-title text-white text-uppercase font-weight-600 m-0 mt-5"><a href="#">Training on LaTeX</a></h4>
-
                                                                 <h4 class="entry-title text-white text-uppercase font-weight-600 m-0 mt-5"><a href="training/latex.php">Training on LaTeX</a></h4>
 
                                                                 <span class="mb-10 text-gray-darkgray mr-10 font-13"><i class="fa fa-commenting-o mr-5 text-theme-colored"></i>BioInformatics</span>
