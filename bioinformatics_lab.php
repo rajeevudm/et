@@ -109,15 +109,8 @@
   </div>
 </div>
 <div id="wrapper" class="clearfix">
-  <!-- preloader -->
-  <div id="preloader">
-    <div id="spinner">
-      <img src="images/preloaders/1.gif" alt="">
-    </div>
-    <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
-  </div>
+   <?php include("includes/menu.php") ?>
   
- <?php include ?>
   <!-- Start main-content -->
   <div class="main-content">
     <!-- Section: home -->
@@ -136,14 +129,14 @@
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
-                <div class="tp-caption tp-resizeme text-uppercase text-black pl-30 pr-30"
+                <div class="tp-caption tp-resizeme text-uppercase text-white bg-dark-transparent-5 pl-30 pr-30"
                   id="rs-1-layer-1"
                 
                   data-x="['center']"
                   data-hoffset="['0']"
                   data-y="['middle']"
                   data-voffset="['-90']" 
-                  data-fontsize="['30']"
+                  data-fontsize="['28']"
                   data-lineheight="['54']"
                   data-width="none"
                   data-height="none"
@@ -157,18 +150,18 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:bolder;  font-weight:700;">We Provide Total
+                  style="z-index: 7; white-space: nowrap; font-weight:600; border-radius:45px;">We Provide Total
                 </div>
 
                 <!-- LAYER NR. 2 -->
-                <div class="tp-caption tp-resizeme text-uppercase text-theme-colored pl-40 pr-40"
+                <div class="tp-caption tp-resizeme text-uppercase text-white bg-theme-colored-transparent pl-40 pr-40"
                   id="rs-1-layer-2"
 
                   data-x="['center']"
                   data-hoffset="['0']"
                   data-y="['middle']"
                   data-voffset="['-20']"
-                  data-fontsize="['54']"
+                  data-fontsize="['48']"
                   data-lineheight="['70']"
                   data-width="none"
                   data-height="none"
@@ -182,7 +175,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:800;">Health Care Solution 
+                  style="z-index: 7; white-space: nowrap; font-weight:600; border-radius:45px;">Health Care Solution 
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -207,7 +200,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:600;">Every day we bring hope to millions of children in the world's<br>  hardest places as a sign of God's unconditional love.
+                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">Every day we bring hope to millions of children in the world's<br>  hardest places as a sign of God's unconditional love.
                 </div>
 
                 <!-- LAYER NR. 4 -->
@@ -230,18 +223,18 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-default btn-lg mr-10" href="#">Contact Us</a> <a class="btn btn-colored btn-lg btn-theme-colored" href="#">View Details</a>
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-theme-colored pl-20 pr-20" href="#">View Details</a> 
                 </div>
               </li>
 
               <!-- SLIDE 2 -->
               <li data-index="rs-2" data-transition="random" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="http://placehold.it/1920x743"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="http://placehold.it/1920x743"  alt=""  data-bgposition="center 20%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="6" data-no-retina>
+                <img src="http://placehold.it/1920x743"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="6" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
-                <div class="tp-caption tp-resizeme text-uppercase text-black"
+                <div class="tp-caption tp-resizeme text-uppercase text-white bg-dark-transparent-5 pl-15 pr-15"
                   id="rs-2-layer-1"
 
                   data-x="['left']"
@@ -263,18 +256,18 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:bolder; font-weight:700;">We Provide Total
+                  style="z-index: 7; white-space: nowrap; font-weight:600;">We Provide Total
                 </div>
 
                 <!-- LAYER NR. 2 -->
-                <div class="tp-caption tp-resizeme text-uppercase text-theme-colored"
+                <div class="tp-caption tp-resizeme text-uppercase text-white bg-theme-colored-transparent pl-15 pr-15"
                   id="rs-2-layer-2"
 
                   data-x="['left']"
                   data-hoffset="['30']"
                   data-y="['middle']"
                   data-voffset="['-45']" 
-                  data-fontsize="['54']"
+                  data-fontsize="['48']"
                   data-lineheight="['70']"
 
                   data-width="none"
@@ -289,7 +282,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:800;">Health Care Solution 
+                  style="z-index: 7; white-space: nowrap; font-weight:600;">Health Care Solution 
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -314,7 +307,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:600;">Every day we bring hope to millions of children in the world's<br>  hardest places as a sign of God's unconditional love.
+                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">Every day we bring hope to millions of children in the world's<br>  hardest places as a sign of God's unconditional love.
                 </div>
 
                 <!-- LAYER NR. 4 -->
@@ -337,18 +330,18 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-default btn-lg mr-10" href="#">Contact Us</a> <a class="btn btn-colored btn-lg btn-theme-colored" href="#">View Details</a>
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-theme-colored pl-20 pr-20" href="#">View Details</a> 
                 </div>
               </li>
 
               <!-- SLIDE 3 -->
               <li data-index="rs-3" data-transition="random" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="http://placehold.it/1920x743"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="http://placehold.it/1920x743"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="6" data-no-retina>
+                <img src="http://placehold.it/1920x743"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="6" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
-                <div class="tp-caption tp-resizeme text-uppercase text-black"
+                <div class="tp-caption tp-resizeme text-uppercase text-white bg-dark-transparent-5 pl-15 pr-15"
                   id="rs-3-layer-1"
 
                   data-x="['right']"
@@ -370,18 +363,18 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:bolder; font-weight:700;">We Provide Total
+                  style="z-index: 7; white-space: nowrap; font-weight:600;">We Provide Total
                 </div>
 
                 <!-- LAYER NR. 2 -->
-                <div class="tp-caption tp-resizeme text-uppercase text-theme-colored font-raleway"
+                <div class="tp-caption tp-resizeme text-uppercase text-white bg-theme-colored-transparent pl-15 pr-15"
                   id="rs-3-layer-2"
 
                   data-x="['right']"
                   data-hoffset="['30']"
                   data-y="['middle']"
                   data-voffset="['-45']" 
-                  data-fontsize="['54']"
+                  data-fontsize="['48']"
                   data-lineheight="['70']"
 
                   data-width="none"
@@ -396,7 +389,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:800;">Health Care Solution 
+                  style="z-index: 7; white-space: nowrap; font-weight:600;">Health Care Solution 
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -421,7 +414,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:600;">Every day we bring hope to millions of children in the world's<br>  hardest places as a sign of God's unconditional love.
+                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">Every day we bring hope to millions of children in the world's<br>  hardest places as a sign of God's unconditional love.
                 </div>
 
                 <!-- LAYER NR. 4 -->
@@ -444,12 +437,11 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-default btn-lg mr-10" href="#">Contact Us</a> <a class="btn btn-colored btn-lg btn-theme-colored" href="#">View Details</a>
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-theme-colored pl-20 pr-20" href="#">View Details</a> 
                 </div>
               </li>
             </ul>
-          </div>
-          <!-- end .rev_slider -->
+          </div><!-- end .rev_slider -->
         </div>
         <!-- end .rev_slider_wrapper -->
         <script>
@@ -493,20 +485,18 @@
                           v_offset: 0
                       }
                   },
-                  bullets: {
-                    enable:true,
-                    hide_onmobile:true,
-                    hide_under:600,
-                    style:"metis",
-                    hide_onleave:true,
-                    hide_delay:200,
-                    hide_delay_mobile:1200,
-                    direction:"horizontal",
-                    h_align:"center",
-                    v_align:"bottom",
-                    h_offset:0,
-                    v_offset:30,
-                    space:5,
+                    bullets: {
+                    enable: true,
+                    hide_onmobile: true,
+                    hide_under: 600,
+                    style: "hebe",
+                    hide_onleave: false,
+                    direction: "horizontal",
+                    h_align: "center",
+                    v_align: "bottom",
+                    h_offset: 0,
+                    v_offset: 30,
+                    space: 5,
                     tmp: '<span class="tp-bullet-image"></span><span class="tp-bullet-imageoverlay"></span><span class="tp-bullet-title"></span>'
                 }
               },
@@ -550,23 +540,37 @@
       </div>
     </section>
 
-    <!-- Section: About -->
-    <section class="">
-      <div class="container">
+    <!-- Section: home-boxes -->
+    <section id="about">
+      <div class="container pb-0">
         <div class="section-content">
-          <div class="row">
-            <div class="col-md-6">
-              <h6 class="letter-space-4 text-gray-darkgray text-uppercase mt-0 mb-0">About Us</h6>
-              <h2 class="text-uppercase font-weight-600 mt-0 font-28 line-bottom">The World’s Best Treatment in Our Hospital</h2>
-              <h4 class="text-theme-colored">Lorem ipsum dolor sit amet soluta saepe odit error, maxime praesentium sunt udiandae!</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore atque officiis maxime suscipit expedita obcaecati nulla in ducimus iure quos quam recusandae dolor quas et perspiciatis voluptatum accusantium delectus nisi reprehenderit, eveniet fuga modi pariatur, eius vero. Ea vitae maiores.</p>
-              <a class="btn btn-theme-colored btn-flat btn-lg mt-10 mb-sm-30" href="#">Know More →</a>
+          <div class="row equal-height-inner">
+            <div class="col-sm-12 col-md-4 pr-0 pr-sm-15 sm-height-auto mt-sm-0" data-margin-top="-150px">
+              <div class="sm-height-auto bg-theme-colored-darker2">
+                <div class="p-30">
+                  <h3 class="text-uppercase text-white mt-0">Complex Systems</h3>
+                  <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas odit unde dolor inventore autem quod vero incidunt labore sunt reprehenderit consectetur inventore autem quod vero incidunt</p>
+                  <a href="#" class="btn-read-more text-white">Read more</a>
+                </div>
+              </div>
             </div>
-            <div class="col-md-6">
-              <div class="video-popup">                
-                <a href="https://www.youtube.com/watch?v=n8d79M0LtfY" data-lightbox-gallery="youtube-video" title="Video">
-                  <img alt="" src="http://placehold.it/555x330" class="img-responsive img-fullwidth">
-                </a>
+            <div class="col-sm-12 col-md-4 pl-0 pl-sm-15 pr-0 pr-sm-15 sm-height-auto mt-sm-0" data-margin-top="-150px">
+              <div class="sm-height-auto bg-theme-colored">
+                <div class="p-30">
+                  <h3 class="text-white text-uppercase mt-0">Diseases</h3>
+                  
+                  <a href="#" class="btn btn-read-more text-gray-lighter mt-10">View Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 pl-0 pl-sm-15 sm-height-auto mt-sm-0" data-margin-top="-150px">
+              <div class="sm-height-auto bg-theme-colored-darker2">
+                <div class="p-30">
+                  <h3 class="text-uppercase text-white mt-0"></h3>
+                  <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas odit unde dolor inventore autem quodvero ipsum</p>
+                  <h3 class="text-white">+(012) 345 6789</h3>
+                  <a href="#" class="btn-read-more text-white">Read more</a>
+                </div>
               </div>
             </div>
           </div>
@@ -574,13 +578,34 @@
       </div>
     </section>
 
-    <!-- Section: Services -->
-    <section id="services" class="bg-silver-light">
+    <!-- Section: about -->
+    <section class="">
       <div class="container pb-0">
+        <div class="row">
+          <div class="col-md-8">
+            <h3 class="text-gray mt-0 mt-sm-30 mb-0">Dr. Rajeev Khoodeeram</h3>
+            <h2 class="text-theme-colored mt-0">Research Lead</h2>
+            <p class="font-weight-600">One of the world's leading hospitals providing safe & compassionate care at its best for everyone. Atque commodi molestiae consectetur.</p>
+            <p class="mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi molestiae autem fugit consectetur dolor ullam illo ipsa numquam, quod iusto enim ipsum amet iusto amet consec.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi molestiae autem fugit consectetur dolor ullam illo ipsa numquam, quod iusto enim ipsum amet iusto amet consec</p>
+            <p class="mt-20"><img src="images/signature.png" alt=""></p>
+            <a href="#" class="btn btn-default btn-theme-colored mt-15 mb-sm-30">Read more</a>
+          </div>
+          <div class="col-md-4">
+            <img src="http://placehold.it/340x464" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- Section: Doctors -->
+    <section id="doctors">
+      <div class="container">
         <div class="section-title text-center">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
-              <h2 class="text-uppercase mt-0 line-height-1">Services</h2>
+              <h2 class="text-uppercase mt-0 line-height-1">Our team</h2>
               <div class="title-icon">
                 <img class="mb-10" src="images/title-icon.png" alt="">
               </div>
@@ -588,68 +613,69 @@
             </div>
           </div>
         </div>
-        <div class="section-content">     
-          <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4">              
-              <div class="row features-style1">
-                <div class="col-sm-12">
-                  <div class="icon-box left media p-0 mb-sm-10 mt-30 mt-sm-0"> <a href="#" class="icon icon-circled icon-lg border-1px border-theme-colored pull-right flip mr-0 ml-30"><i class="fa fa-user-md"></i></a>
-                    <div class="media-body text-right">
-                      <h4 class="media-heading heading">Qualified Doctors</h4>
-                      <p>Medikal is a creative skill and a joy beyond anything found</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-12">
-                  <div class="icon-box left media p-0 mb-sm-10"> <a href="#" class="icon icon-circled icon-lg border-1px border-theme-colored pull-right flip mr-0 ml-30"><i class="flaticon-medical-hospital16"></i></a>
-                    <div class="media-body text-right">
-                      <h4 class="media-heading heading">Cancer Service</h4>
-                      <p>Medikal is a creative skill and a joy beyond anything found</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-12">
-                  <div class="icon-box left media p-0 mb-sm-10"> <a href="#" class="icon icon-circled icon-lg border-1px border-theme-colored pull-right flip mr-0 ml-30"><i class="flaticon-medical-hospital17"></i></a>
-                    <div class="media-body text-right">
-                      <h4 class="media-heading heading">Operation Theatre</h4>
-                      <p>Medikal is a creative skill and a joy beyond anything found</p>
-                    </div>
-                  </div>
+        <div class="section-content">
+          <div class="row multi-row-clearfix">
+            <div class="col-sm-6 col-md-3 sm-text-center mb-sm-30">
+              <div class="team maxwidth400">
+                <div class="thumb"><img class="img-fullwidth" src="http://placehold.it/400x400" alt=""></div>
+                <div class="content border-1px p-15 bg-light clearfix">
+                  <h4 class="name text-theme-color-2 mt-0">Dr. Sakib Smith</h4>
+                  <p class="mb-20">Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.</p>
+                  <ul class="styled-icons icon-dark icon-circled icon-theme-colored icon-sm pull-left flip">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  </ul>
+                  <a class="btn btn-theme-colored btn-sm pull-right flip" href="#">view details</a>
                 </div>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <img src="http://placehold.it/360x465" alt="">
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">              
-              <div class="row features-style1">
-                <div class="col-sm-12">
-                  <div class="icon-box left media p-0 mb-sm-10 mt-30 mt-sm-30"> <a href="#" class="icon icon-circled icon-lg border-1px border-theme-colored pull-left flip"><i class="flaticon-medical-ambulance14"></i></a>
-                    <div class="media-body">
-                      <h4 class="media-heading heading">Emergency Care</h4>
-                      <p>Medikal is a creative skill and a joy beyond anything found</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-12">
-                  <div class="icon-box left media p-0 mb-sm-10"> <a href="#" class="icon icon-circled icon-lg border-1px border-theme-colored pull-left flip"><i class="fa fa-medkit"></i></a>
-                    <div class="media-body">
-                      <h4 class="media-heading heading">Outdoor Checkup</h4>
-                      <p>Medikal is a creative skill and a joy beyond anything found</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-12">
-                  <div class="icon-box left media p-0 mb-sm-10"> <a href="#" class="icon icon-circled icon-lg border-1px border-theme-colored pull-left flip"><i class="flaticon-medical-hospital35"></i></a>
-                    <div class="media-body">
-                      <h4 class="media-heading heading">General Medical</h4>
-                      <p>Medikal is a creative skill and a joy beyond anything found</p>
-                    </div>
-                  </div>
+            <div class="col-sm-6 col-md-3 sm-text-center mb-sm-30">
+              <div class="team maxwidth400">
+                <div class="thumb"><img class="img-fullwidth" src="http://placehold.it/400x400" alt=""></div>
+                <div class="content border-1px p-15 bg-light clearfix">
+                  <h4 class="name mt-0 text-theme-color-2">Dr. Smail Smith</h4>
+                  <p class="mb-20">Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.</p>
+                  <ul class="styled-icons icon-dark icon-circled icon-theme-colored icon-sm pull-left flip">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  </ul>
+                  <a class="btn btn-theme-colored btn-sm pull-right flip" href="#">view details</a>
                 </div>
               </div>
             </div>
-          </div>     
+            <div class="col-sm-6 col-md-3 sm-text-center mb-sm-30">
+              <div class="team maxwidth400">
+                <div class="thumb"><img class="img-fullwidth" src="http://placehold.it/400x400" alt=""></div>
+                <div class="content border-1px p-15 bg-light clearfix">
+                  <h4 class="name mt-0 text-theme-color-2">Dr. Zakaria Jon</h4>
+                  <p class="mb-20">Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.</p>
+                  <ul class="styled-icons icon-dark icon-circled icon-theme-colored icon-sm pull-left flip">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  </ul>
+                  <a class="btn btn-theme-colored btn-sm pull-right flip" href="#">view details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 sm-text-center">
+              <div class="team maxwidth400">
+                <div class="thumb"><img class="img-fullwidth" src="http://placehold.it/400x400" alt=""></div>
+                <div class="content border-1px p-15 bg-light clearfix">
+                  <h4 class="name mt-0 text-theme-color-2">Dr. Ismail Jon</h4>
+                  <p class="mb-20">Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.</p>
+                  <ul class="styled-icons icon-dark icon-circled icon-theme-colored icon-sm pull-left flip">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  </ul>
+                  <a class="btn btn-theme-colored btn-sm pull-right flip" href="#">view details</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -691,12 +717,12 @@
     </section>
 
     <!-- Section: Departments -->
-    <section class="bg-lighter">
+    <section id="departments">
       <div class="container">
         <div class="section-title text-center">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
-              <h2 class="text-uppercase mt-0 line-height-1">Our programmes</h2>
+              <h2 class="text-uppercase mt-0 line-height-1">Our Projects</h2>
               <div class="title-icon">
                 <img class="mb-10" src="images/title-icon.png" alt="">
               </div>
@@ -706,135 +732,57 @@
         </div>
         <div class="section-content">
           <div class="row">
-            <div class="col-md-4 col-sm-6">
-              <div class="feturead mb-30 mb-sm-30">
-                <div class="thumb"> <img src="http://placehold.it/360x205" class="img-fullwidth" alt=""> </div>
-                <div class="bg-white p-20">
-                  <h4 class="line-bottom text-uppercase font-weight-600 mt-0 mb-15">Departments Title</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus.</p>
-                  <a class="btn btn-theme-colored btn-sm btn-flat" href="#">View Details</a>
-                </div>
-              </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 mb-30">
+              <img class="img-fullwidth" alt="" src="http://placehold.it/300x200">
+              <h4>Department Title</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, hic.</p>
+              <a href="#" class="btn-read-more text-theme-colored">Read more</a>
             </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="feturead mb-30 mb-sm-30">
-                <div class="thumb"> <img src="http://placehold.it/360x205" class="img-fullwidth" alt=""> </div>
-                <div class="bg-white p-20">
-                  <h4 class="line-bottom text-uppercase font-weight-600 mt-0 mb-15">Departments Title</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus.</p>
-                  <a class="btn btn-theme-colored btn-sm btn-flat" href="#">View Details</a>
-                </div>
-              </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 mb-30">
+              <img class="img-fullwidth" alt="" src="http://placehold.it/300x200">
+              <h4>Department Title</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, hic.</p>
+              <a href="#" class="btn-read-more text-theme-colored">Read more</a>
             </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="feturead mb-30 mb-sm-30">
-                <div class="thumb"> <img src="http://placehold.it/360x205" class="img-fullwidth" alt=""> </div>
-                <div class="bg-white p-20">
-                  <h4 class="line-bottom text-uppercase font-weight-600 mt-0 mb-15">Departments Title</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus.</p>
-                  <a class="btn btn-theme-colored btn-sm btn-flat" href="#">View Details</a>
-                </div>
-              </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 mb-30">
+              <img class="img-fullwidth" alt="" src="http://placehold.it/300x200">
+              <h4>Department Title</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, hic.</p>
+              <a href="#" class="btn-read-more text-theme-colored">Read more</a>
             </div>
-           
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section: Features -->
-    
-
-    <!-- Section: Doctors -->
-    <section id="doctors">
-      <div class="container">
-        <div class="section-title text-center">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <h2 class="text-uppercase mt-0 line-height-1">Our Staffs</h2>
-              <div class="title-icon">
-                <img class="mb-10" src="images/title-icon.png" alt="">
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>
+            <div class="col-xs-12 col-sm-6 col-md-3 mb-30">
+              <img class="img-fullwidth" alt="" src="http://placehold.it/300x200">
+              <h4>Department Title</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, hic.</p>
+              <a href="#" class="btn-read-more text-theme-colored">Read more</a>
             </div>
-          </div>
-        </div>
-        <div class="row mtli-row-clearfix">
-          <div class="col-md-12">
-            <div class="owl-carousel-4col">
-              <div class="item">
-                <div class="team-members border-bottom-theme-color-2px text-center maxwidth400">
-                  <div class="team-thumb">
-                    <img class="img-fullwidth" alt="" src="http://placehold.it/275x370">
-                    <div class="team-overlay"></div>
-                  </div>
-                  <div class="team-details bg-silver-light pt-10 pb-10">
-                    <h4 class="text-uppercase font-weight-600 m-5">Dr. Sakib Jhon</h4>
-                    <h6 class="text-theme-colored font-15 font-weight-400 mt-0">Mbbs Doctor</h6>                    
-                    <ul class="styled-icons icon-theme-colored icon-dark icon-circled icon-sm">
-                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                      <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="team-members border-bottom-theme-color-2px text-center maxwidth400">
-                  <div class="team-thumb">
-                    <img class="img-fullwidth" alt="" src="http://placehold.it/275x370">
-                    <div class="team-overlay"></div>
-                  </div>
-                  <div class="team-details bg-silver-light pt-10 pb-10">
-                    <h4 class="text-uppercase font-weight-600 m-5">Dr. Smile Jhon</h4>
-                    <h6 class="text-theme-colored font-15 font-weight-400 mt-0">Mbbs Doctor</h6>                    
-                    <ul class="styled-icons icon-theme-colored icon-dark icon-circled icon-sm">
-                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                      <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="team-members border-bottom-theme-color-2px text-center maxwidth400">
-                  <div class="team-thumb">
-                    <img class="img-fullwidth" alt="" src="http://placehold.it/275x370">
-                    <div class="team-overlay"></div>
-                  </div>
-                  <div class="team-details bg-silver-light pt-10 pb-10">
-                    <h4 class="text-uppercase font-weight-600 m-5">Dr. Sakib Jhon</h4>
-                    <h6 class="text-theme-colored font-15 font-weight-400 mt-0">Mbbs Doctor</h6>                    
-                    <ul class="styled-icons icon-theme-colored icon-dark icon-circled icon-sm">
-                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                      <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="team-members border-bottom-theme-color-2px text-center maxwidth400">
-                  <div class="team-thumb">
-                    <img class="img-fullwidth" alt="" src="http://placehold.it/275x370">
-                    <div class="team-overlay"></div>
-                  </div>
-                  <div class="team-details bg-silver-light pt-10 pb-10">
-                    <h4 class="text-uppercase font-weight-600 m-5">Dr. Smile Jhon</h4>
-                    <h6 class="text-theme-colored font-15 font-weight-400 mt-0">Mbbs Doctor</h6>                    
-                    <ul class="styled-icons icon-theme-colored icon-dark icon-circled icon-sm">
-                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                      <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+              <!--
+            <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-30">
+              <img class="img-fullwidth" alt="" src="http://placehold.it/300x200">
+              <h4>Department Title</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, hic.</p>
+              <a href="#" class="btn-read-more text-theme-colored">Read more</a>
             </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-30">
+              <img class="img-fullwidth" alt="" src="http://placehold.it/300x200">
+              <h4>Department Title</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, hic.</p>
+              <a href="#" class="btn-read-more text-theme-colored">Read more</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-30">
+              <img class="img-fullwidth" alt="" src="http://placehold.it/300x200">
+              <h4>Department Title</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, hic.</p>
+              <a href="#" class="btn-read-more text-theme-colored">Read more</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <img class="img-fullwidth" alt="" src="http://placehold.it/300x200">
+              <h4>Department Title</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, hic.</p>
+              <a href="#" class="btn-read-more text-theme-colored">Read more</a>
+            </div>
+              -->
+              
           </div>
         </div>
       </div>
@@ -842,291 +790,261 @@
 
    
 
-    <!-- Section: Testimonials -->
-    <section class="divider parallax layer-overlay overlay-white-9" data-bg-img="http://placehold.it/1920x1280" data-parallax-ratio="0.7">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="pt-50">
-              <div class="testimonial style1 owl-carousel-3col owl-nav-top" data-nav="true">
-                <div class="item">
-                  <div class="comment border-radius-15px">
-                    <p>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui dolorem facilis.</p>
-                  </div>
-                  <div class="content mt-20">
-                    <div class="thumb pull-right">
-                      <img class="img-circle" alt="" src="http://placehold.it/75x75">
-                    </div>
-                    <div class="patient-details text-right pull-right mr-20 mt-10">
-                      <h5 class="">Jonathan Smith</h5>
-                      <h6 class="title">kode inc.</h6>
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="comment border-radius-15px">
-                    <p>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui dolorem facilis.</p>
-                  </div>
-                  <div class="content mt-20">
-                    <div class="thumb pull-right">
-                      <img class="img-circle" alt="" src="http://placehold.it/75x75">
-                    </div>
-                    <div class="patient-details text-right pull-right mr-20 mt-10">
-                      <h5 class="">Jonathan Smith</h5>
-                      <h6 class="title">kode inc.</h6>
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="comment border-radius-15px">
-                    <p>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui dolorem facilis.</p>
-                  </div>
-                  <div class="content mt-20">
-                    <div class="thumb pull-right">
-                      <img class="img-circle" alt="" src="http://placehold.it/75x75">
-                    </div>
-                    <div class="patient-details text-right pull-right mr-20 mt-10">
-                      <h5 class="">Jonathan Smith</h5>
-                      <h6 class="title">kode inc.</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!-- Section: Gallery -->
-    <section class="">
-      <div class="container">
-        <div class="section-title text-center">
+    <!-- Section: gallery -->
+    <section id="gallery" class="divider parallax layer-overlay overlay-white-9" data-bg-img="http://placehold.it/1920x1280" data-parallax-ratio="0.7">>
+      <div class="container pb-40">
+        <div class="section-content">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <h2 class="text-uppercase mt-0 line-height-1">Gallery</h2>
-              <div class="title-icon">
-                <img class="mb-10" src="images/title-icon.png" alt="">
+            <div class="col-md-7">
+              <h3 class="title line-bottom line-height-1 mt-0 mb-30"><i class="fa fa-camera-retro text-theme-colored mr-10"></i>Our <span class="text-theme-colored">Gallery</span></h3>
+              <div class="gallery-isotope grid-4 gutter-small clearfix" data-lightbox="gallery">
+                <!-- Portfolio Item Start -->
+                <div class="gallery-item">
+                  <div class="thumb">
+                    <img alt="project" src="http://placehold.it/230x150" class="img-fullwidth">
+                    <div class="overlay-shade"></div>
+                    <div class="icons-holder">
+                      <div class="icons-holder-inner">
+                        <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                          <a href="images/gallery/gallery-lg1.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+                
+                <!-- Portfolio Item Start -->
+                <div class="gallery-item">
+                  <div class="thumb">
+                    <img alt="project" src="http://placehold.it/230x150" class="img-fullwidth">
+                    <div class="overlay-shade"></div>
+                    <div class="icons-holder">
+                      <div class="icons-holder-inner">
+                        <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                          <a href="images/gallery/gallery-lg2.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+                
+                <!-- Portfolio Item Start -->
+                <div class="gallery-item">
+                  <div class="thumb">
+                    <img alt="project" src="http://placehold.it/230x150" class="img-fullwidth">
+                    <div class="overlay-shade"></div>
+                    <div class="icons-holder">
+                      <div class="icons-holder-inner">
+                        <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                          <a href="images/gallery/gallery-lg3.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+                
+                <!-- Portfolio Item Start -->
+                <div class="gallery-item">
+                  <div class="thumb">
+                    <img alt="project" src="http://placehold.it/230x150" class="img-fullwidth">
+                    <div class="overlay-shade"></div>
+                    <div class="icons-holder">
+                      <div class="icons-holder-inner">
+                        <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                          <a href="images/gallery/gallery-lg4.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+                
+                <!-- Portfolio Item Start -->
+                <div class="gallery-item">
+                  <div class="thumb">
+                    <img alt="project" src="http://placehold.it/230x150" class="img-fullwidth">
+                    <div class="overlay-shade"></div>
+                    <div class="icons-holder">
+                      <div class="icons-holder-inner">
+                        <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                          <a href="images/gallery/gallery-lg5.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+                
+                <!-- Portfolio Item Start -->
+                <div class="gallery-item">
+                  <div class="thumb">
+                    <img alt="project" src="http://placehold.it/230x150" class="img-fullwidth">
+                    <div class="overlay-shade"></div>
+                    <div class="icons-holder">
+                      <div class="icons-holder-inner">
+                        <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                          <a href="images/gallery/gallery-lg6.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+                
+                <!-- Portfolio Item Start -->
+                <div class="gallery-item">
+                  <div class="thumb">
+                    <img alt="project" src="http://placehold.it/230x150" class="img-fullwidth">
+                    <div class="overlay-shade"></div>
+                    <div class="icons-holder">
+                      <div class="icons-holder-inner">
+                        <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                          <a href="images/gallery/gallery-lg7.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+                
+                <!-- Portfolio Item Start -->
+                <div class="gallery-item">
+                  <div class="thumb">
+                    <img alt="project" src="http://placehold.it/230x150" class="img-fullwidth">
+                    <div class="overlay-shade"></div>
+                    <div class="icons-holder">
+                      <div class="icons-holder-inner">
+                        <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                          <a href="images/gallery/gallery-lg8.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+                
+                <!-- Portfolio Item Start -->
+                <div class="gallery-item">
+                  <div class="thumb">
+                    <img alt="project" src="http://placehold.it/230x150" class="img-fullwidth">
+                    <div class="overlay-shade"></div>
+                    <div class="icons-holder">
+                      <div class="icons-holder-inner">
+                        <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                          <a href="images/gallery/gallery-lg9.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+                
+                <!-- Portfolio Item Start -->
+                <div class="gallery-item">
+                  <div class="thumb">
+                    <img alt="project" src="http://placehold.it/230x150" class="img-fullwidth">
+                    <div class="overlay-shade"></div>
+                    <div class="icons-holder">
+                      <div class="icons-holder-inner">
+                        <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                          <a href="images/gallery/gallery-lg10.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+                
+                <!-- Portfolio Item Start -->
+                <div class="gallery-item">
+                  <div class="thumb">
+                    <img alt="project" src="http://placehold.it/230x150" class="img-fullwidth">
+                    <div class="overlay-shade"></div>
+                    <div class="icons-holder">
+                      <div class="icons-holder-inner">
+                        <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                          <a href="images/gallery/gallery-lg11.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+                
+                <!-- Portfolio Item Start -->
+                <div class="gallery-item">
+                  <div class="thumb">
+                    <img alt="project" src="http://placehold.it/230x150" class="img-fullwidth">
+                    <div class="overlay-shade"></div>
+                    <div class="icons-holder">
+                      <div class="icons-holder-inner">
+                        <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                          <a href="images/gallery/gallery-lg12.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <!-- Works Filter -->
-            <div class="portfolio-filter font-alt text-center">
-              <a href="#" class="active" data-filter="*">All</a>
-              <a href="#dental" class="" data-filter=".dental">Dental</a>
-              <a href="#surgery" class="" data-filter=".surgery">Surgery</a>
-              <a href="#laboratory" class="" data-filter=".laboratory">Laboratory</a>
+            <div class="col-md-5">
+              <h3 class="title line-height-1 line-bottom mt-0 mt-sm-30 mb-30"><i class="fa fa-thumb-tack text-theme-colored mr-10"></i>Our collaborators</h3>
+              <div class="testimonial style1 owl-carousel-1col">
+                <div class="item">
+                  <div class="comment border-radius-15px">
+                    <p>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui dolorem facilis.</p>
+                  </div>
+                  <div class="content mt-20">
+                    <div class="thumb pull-right">
+                      <img class="img-circle" alt="" src="http://placehold.it/75x75">
+                    </div>
+                    <div class="patient-details text-right pull-right mr-20 mt-10">
+                      <h5 class="">Jonathan Smith</h5>
+                      <h6 class="title">kode inc.</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="comment border-radius-15px">
+                    <p>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui dolorem facilis.</p>
+                  </div>
+                  <div class="content mt-20">
+                    <div class="thumb pull-right">
+                      <img class="img-circle" alt="" src="http://placehold.it/75x75">
+                    </div>
+                    <div class="patient-details text-right pull-right mr-20 mt-10">
+                      <h5 class="">Jonathan Smith</h5>
+                      <h6 class="title">kode inc.</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="comment border-radius-15px">
+                    <p>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui dolorem facilis.</p>
+                  </div>
+                  <div class="content mt-20">
+                    <div class="thumb pull-right">
+                      <img class="img-circle" alt="" src="http://placehold.it/75x75">
+                    </div>
+                    <div class="patient-details text-right pull-right mr-20 mt-10">
+                      <h5 class="">Jonathan Smith</h5>
+                      <h6 class="title">kode inc.</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <!-- End Works Filter -->
-            
-            <!-- Portfolio Gallery Grid -->
-
-            <div class="gallery-isotope grid-4 gutter-small clearfix" data-lightbox="gallery">
-              <!-- Portfolio Item Start -->
-              <div class="gallery-item dental">
-                <div class="thumb">
-                  <img alt="project" src="http://placehold.it/285x195" class="img-fullwidth">
-                  <div class="overlay-shade"></div>
-                  <div class="icons-holder">
-                    <div class="icons-holder-inner">
-                      <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                        <a href="images/gallery/gallery-lg1.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Portfolio Item End -->
-              
-              <!-- Portfolio Item Start -->
-              <div class="gallery-item photography">
-                <div class="thumb">
-                  <img alt="project" src="http://placehold.it/285x195" class="img-fullwidth">
-                  <div class="overlay-shade"></div>
-                  <div class="icons-holder">
-                    <div class="icons-holder-inner">
-                      <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                        <a href="images/gallery/gallery-lg2.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Portfolio Item End -->
-              
-              <!-- Portfolio Item Start -->
-              <div class="gallery-item surgery">
-                <div class="thumb">
-                  <img alt="project" src="http://placehold.it/285x195" class="img-fullwidth">
-                  <div class="overlay-shade"></div>
-                  <div class="icons-holder">
-                    <div class="icons-holder-inner">
-                      <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                        <a href="images/gallery/gallery-lg3.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Portfolio Item End -->
-              
-              <!-- Portfolio Item Start -->
-              <div class="gallery-item laboratory">
-                <div class="thumb">
-                  <img alt="project" src="http://placehold.it/285x195" class="img-fullwidth">
-                  <div class="overlay-shade"></div>
-                  <div class="icons-holder">
-                    <div class="icons-holder-inner">
-                      <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                        <a href="images/gallery/gallery-lg4.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Portfolio Item End -->
-              
-              <!-- Portfolio Item Start -->
-              <div class="gallery-item dental">
-                <div class="thumb">
-                  <img alt="project" src="http://placehold.it/285x195" class="img-fullwidth">
-                  <div class="overlay-shade"></div>
-                  <div class="icons-holder">
-                    <div class="icons-holder-inner">
-                      <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                        <a href="images/gallery/gallery-lg5.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Portfolio Item End -->
-              
-              <!-- Portfolio Item Start -->
-              <div class="gallery-item surgery">
-                <div class="thumb">
-                  <img alt="project" src="http://placehold.it/285x195" class="img-fullwidth">
-                  <div class="overlay-shade"></div>
-                  <div class="icons-holder">
-                    <div class="icons-holder-inner">
-                      <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                        <a href="images/gallery/gallery-lg6.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Portfolio Item End -->
-              
-              <!-- Portfolio Item Start -->
-              <div class="gallery-item photography">
-                <div class="thumb">
-                  <img alt="project" src="http://placehold.it/285x195" class="img-fullwidth">
-                  <div class="overlay-shade"></div>
-                  <div class="icons-holder">
-                    <div class="icons-holder-inner">
-                      <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                        <a href="images/gallery/gallery-lg7.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Portfolio Item End -->
-              
-              <!-- Portfolio Item Start -->
-              <div class="gallery-item laboratory">
-                <div class="thumb">
-                  <img alt="project" src="http://placehold.it/285x195" class="img-fullwidth">
-                  <div class="overlay-shade"></div>
-                  <div class="icons-holder">
-                    <div class="icons-holder-inner">
-                      <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                        <a href="images/gallery/gallery-lg8.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Portfolio Item End -->
-              
-              <!-- Portfolio Item Start -->
-              <div class="gallery-item surgery">
-                <div class="thumb">
-                  <img alt="project" src="http://placehold.it/285x195" class="img-fullwidth">
-                  <div class="overlay-shade"></div>
-                  <div class="icons-holder">
-                    <div class="icons-holder-inner">
-                      <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                        <a href="images/gallery/gallery-lg9.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Portfolio Item End -->
-              
-              <!-- Portfolio Item Start -->
-              <div class="gallery-item dental">
-                <div class="thumb">
-                  <img alt="project" src="http://placehold.it/285x195" class="img-fullwidth">
-                  <div class="overlay-shade"></div>
-                  <div class="icons-holder">
-                    <div class="icons-holder-inner">
-                      <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                        <a href="images/gallery/gallery-lg10.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Portfolio Item End -->
-              
-              <!-- Portfolio Item Start -->
-              <div class="gallery-item photography">
-                <div class="thumb">
-                  <img alt="project" src="http://placehold.it/285x195" class="img-fullwidth">
-                  <div class="overlay-shade"></div>
-                  <div class="icons-holder">
-                    <div class="icons-holder-inner">
-                      <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                        <a href="images/gallery/gallery-lg11.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Portfolio Item End -->
-              
-              <!-- Portfolio Item Start -->
-              <div class="gallery-item laboratory">
-                <div class="thumb">
-                  <img alt="project" src="http://placehold.it/285x195" class="img-fullwidth">
-                  <div class="overlay-shade"></div>
-                  <div class="icons-holder">
-                    <div class="icons-holder-inner">
-                      <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                        <a href="images/gallery/gallery-lg12.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Portfolio Item End -->
-            </div>
-            <!-- End Portfolio Gallery Grid -->
-
           </div>
         </div>
       </div>
     </section>
 
     <!-- Section: blog -->
-    <section id="blog" class="bg-lighter">
+    <section id="blog">
       <div class="container">
         <div class="section-title text-center">
           <div class="row">
@@ -1135,7 +1053,7 @@
               <div class="title-icon">
                 <img class="mb-10" src="images/title-icon.png" alt="">
               </div>
-              <p>See below recent news</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>
             </div>
           </div>
         </div>
@@ -1144,7 +1062,7 @@
             <div class="col-md-12">
               <div class="owl-carousel-3col">
                 <div class="item">
-                  <article class="post clearfix bg-white">
+                  <article class="post clearfix bg-lighter">
                     <div class="entry-header">
                       <div class="post-thumb thumb"> 
                         <img src="http://placehold.it/540x370" alt="" class="img-responsive img-fullwidth"> 
@@ -1171,7 +1089,7 @@
                   </article>
                 </div>
                 <div class="item">
-                  <article class="post clearfix bg-white">
+                  <article class="post clearfix bg-lighter">
                     <div class="entry-header">
                       <div class="post-thumb thumb"> 
                         <img src="http://placehold.it/540x370" alt="" class="img-responsive img-fullwidth"> 
@@ -1198,7 +1116,7 @@
                   </article>
                 </div>
                 <div class="item">
-                  <article class="post clearfix bg-white">
+                  <article class="post clearfix bg-lighter">
                     <div class="entry-header">
                       <div class="post-thumb thumb"> 
                         <img src="http://placehold.it/540x370" alt="" class="img-responsive img-fullwidth"> 
@@ -1230,35 +1148,24 @@
         </div>
       </div>
     </section>
+
     
-    <!-- Divider: Clients -->
-    <section class="clients bg-theme-colored">
-      <div class="container pt-0 pb-0">
-        <div class="row">
-          <div class="col-md-12">
-            <!-- Section: Clients -->
-            <div class="owl-carousel-6col clients-logo transparent text-center">
-              <div class="item"> <a href="#"><img src="images/clients/w1.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/clients/w2.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/clients/w3.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/clients/w4.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/clients/w5.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/clients/w6.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/clients/w3.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/clients/w4.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/clients/w5.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/clients/w6.png" alt=""></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
   <!-- end main-content -->
   
   <!-- Footer -->
-  
-  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a></div>
+  <footer id="footer" class="footer pb-0" data-bg-img="images/footer-bg.png" data-bg-color="#25272e">
+ 
+    <div class="container-fluid bg-theme-colored p-20">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <p class="text-white font-11 m-0">Copyright &copy;2022. Department of Emerging Technologies. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+</div>
 <!-- end wrapper -->
 
 <!-- Footer Scripts -->

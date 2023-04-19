@@ -69,7 +69,7 @@
 <div id="side-panel" class="dark" data-bg-img="http://placehold.it/1920x1280">
   <div class="side-panel-wrap">
     <div id="side-panel-trigger-close" class="side-panel-trigger"><a href="#"><i class="pe-7s-close font-36"></i></a></div>
-    <a href="javascript:void(0)"><img alt="logo" src="images/logo-wide.png"></a>
+   
     <div class="side-panel-nav mt-30">
       <div class="widget no-border">
         <nav>

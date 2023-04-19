@@ -15,19 +15,19 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div id="side-panel-trigger" class="side-panel-trigger pull-right flip sm-pull-none mt-5"><a href="#"><i class="fa fa-bars font-24 text-white"></i></a></div>
+           
             <div class="widget no-border m-0">
               <ul class="list-inline pull-right flip sm-pull-none sm-text-center mt-5">
                 <li>
-                  <a href="#" class="text-white">Help Desk</a>
+                  <a href="#" class="text-white">Courses</a>
                 </li>
                 <li class="text-white">|</li>
                 <li>
-                  <a href="#" class="text-white"> Emergency Services </a>
+                  <a href="#" class="text-white">Social</a>
                 </li>
                 <li class="text-white">|</li>
                 <li>
-                  <a class="text-white ajaxload-popup" href="ajax-load/form-appointment.html">Appointment</a>
+                  <a  href="#"  class="text-white">Research</a>
                 </li>
               </ul>
             </div>
@@ -40,7 +40,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-4 col-md-5">
             <div class="widget no-border m-0">
-              <a class="menuzord-brand pull-left flip xs-pull-center mb-15" href="javascript:void(0)"><img src="images/logo-wide.png" alt=""></a>
+                <a class="menuzord-brand pull-left flip xs-pull-center mb-15" href="javascript:void(0)"><img src="images/creetiv_logo.png" alt="" width="200px" height="150px"></a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4">

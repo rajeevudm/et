@@ -109,68 +109,8 @@
   </div>
 </div>
 <div id="wrapper" class="clearfix">
-  <!-- preloader -->
-  <div id="preloader">
-    <div id="spinner">
-      <img src="images/preloaders/1.gif" alt="">
-    </div>
-    <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
-  </div>
-  
-  <!-- Header -->
-  <header id="header" class="header">
-    <div class="header-top bg-theme-colored sm-text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="widget no-border m-0">
-              <ul class="styled-icons icon-dark icon-theme-colored icon-sm sm-text-center">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-9">
-            <div class="widget no-border m-0">
-              <ul class="list-inline pull-right flip sm-pull-none sm-text-center mt-5">
-                <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-white"></i> <a class="text-white" href="#">123-456-789</a> </li>
-                <li class="text-white m-0 pl-10 pr-10"> <i class="fa fa-clock-o text-white"></i> Mon-Fri 8:00 to 2:00 </li>
-                <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-white"></i> <a class="text-white" href="#">contact@yourdomain.com</a> </li>
-                <li class="sm-display-block mt-sm-10 mb-sm-10">
-                  <!-- Modal: Appointment Starts -->
-                  <a class="bg-light p-5 text-theme-colored font-11 ajaxload-popup" href="ajax-load/form-appointment.html">Make an Appointment</a>
-                  <!-- Modal: Appointment End -->
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="header-nav">
-      <div class="header-nav-wrapper navbar-scrolltofixed bg-lightest">
-        <div class="container">
-          <nav id="menuzord-right" class="menuzord blue bg-lightest">
-            <a class="menuzord-brand pull-left flip" href="javascript:void(0)">
-              <img src="images/logo-wide.png" alt="">
-            </a>
-            <div id="side-panel-trigger" class="side-panel-trigger"><a href="#"><i class="fa fa-bars font-24 text-gray"></i></a></div>
-            <ul class="menuzord-menu onepage-nav">
-              <li class="active"><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#doctors">Doctors</a></li>
-              <li><a href="#departments">Departments</a></li>
-              <li><a href="#blog">Blog</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
+   <?php include("includes/menu.php") ?>
+   
   
   <!-- Start main-content -->
   <div class="main-content">
@@ -609,7 +549,7 @@
             <div class="col-sm-12 col-md-4 pr-0 pr-sm-15 sm-height-auto mt-sm-0" data-margin-top="-150px">
               <div class="sm-height-auto bg-theme-colored-darker2">
                 <div class="p-30">
-                  <h3 class="text-uppercase text-white mt-0">Internet of Things</h3>
+                  <h3 class="text-uppercase text-white mt-0">ENVIRONMENT</h3>
                   <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas odit unde dolor inventore autem quod vero incidunt labore sunt reprehenderit consectetur inventore autem quod vero incidunt</p>
                   <a href="#" class="btn-read-more text-white">Read more</a>
                 </div>
@@ -618,17 +558,18 @@
             <div class="col-sm-12 col-md-4 pl-0 pl-sm-15 pr-0 pr-sm-15 sm-height-auto mt-sm-0" data-margin-top="-150px">
               <div class="sm-height-auto bg-theme-colored">
                 <div class="p-30">
-                  <h3 class="text-white text-uppercase mt-0">Autonomous Systems</h3>
+                  <h3 class="text-white text-uppercase mt-0">CLIMATE</h3>
                   <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas odit unde dolor inventore autem quodvero ipsum</p>
                   <h3 class="text-white">+(012) 345 6789</h3>
                   <a href="#" class="btn-read-more text-white">Read more</a>
+                  
                 </div>
               </div>
             </div>
             <div class="col-sm-12 col-md-4 pl-0 pl-sm-15 sm-height-auto mt-sm-0" data-margin-top="-150px">
               <div class="sm-height-auto bg-theme-colored-darker2">
                 <div class="p-30">
-                  <h3 class="text-uppercase text-white mt-0">Artificial Intelligence</h3>
+                  <h3 class="text-uppercase text-white mt-0">BIODIVERSITY</h3>
                   <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas odit unde dolor inventore autem quodvero ipsum</p>
                   <h3 class="text-white">+(012) 345 6789</h3>
                   <a href="#" class="btn-read-more text-white">Read more</a>
@@ -645,7 +586,7 @@
       <div class="container pb-0">
         <div class="row">
           <div class="col-md-8">
-            <h3 class="text-gray mt-0 mt-sm-30 mb-0">Dr. Keshav Sewraj</h3>
+            <h3 class="text-gray mt-0 mt-sm-30 mb-0">Dr. Jay DOORGA</h3>
             <h2 class="text-theme-colored mt-0">Research Lead</h2>
             <p class="font-weight-600">One of the world's leading hospitals providing safe & compassionate care at its best for everyone. Atque commodi molestiae consectetur.</p>
             <p class="mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi molestiae autem fugit consectetur dolor ullam illo ipsa numquam, quod iusto enim ipsum amet iusto amet consec.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi molestiae autem fugit consectetur dolor ullam illo ipsa numquam, quod iusto enim ipsum amet iusto amet consec</p>
@@ -659,74 +600,7 @@
       </div>
     </section>
 
-    <!-- Section: Services -->
-    <section id="services" class=" bg-lighter">
-      <div class="container pb-20">
-        <div class="section-title text-center">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <h2 class="text-uppercase mt-0 line-height-1">Services</h2>
-              <div class="title-icon">
-                <img class="mb-10" src="images/title-icon.png" alt="">
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>
-            </div>
-          </div>
-        </div>
-        <div class="section-content">
-          <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="icon-box left media p-0"> <a href="#" class="media-left pull-left"><i class="flaticon-medical-ambulance14 text-theme-colored"></i></a>
-                <div class="media-body">
-                  <h5 class="media-heading heading">Emergency Care</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum consectetur sit ullam perspiciatis, deserunt.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="icon-box left media p-0"> <a href="#" class="media-left pull-left"><i class="flaticon-medical-illness text-theme-colored"></i></a>
-                <div class="media-body">
-                  <h5 class="media-heading heading">Operation Theatre</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum consectetur sit ullam perspiciatis, deserunt.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="icon-box left media p-0"> <a href="#" class="media-left pull-left"><i class="flaticon-medical-stethoscope10 text-theme-colored"></i></a>
-                <div class="media-body">
-                  <h5 class="media-heading heading">Outdoor Checkup</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum consectetur sit ullam perspiciatis, deserunt.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="icon-box left media p-0"> <a href="#" class="media-left pull-left"><i class="flaticon-medical-medical51 text-theme-colored"></i></a>
-                <div class="media-body">
-                  <h5 class="media-heading heading">Cancer Service</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum consectetur sit ullam perspiciatis, deserunt.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="icon-box left media p-0"> <a href="#" class="media-left pull-left"><i class="flaticon-medical-hospital35 text-theme-colored"></i></a>
-                <div class="media-body">
-                  <h5 class="media-heading heading">Blood Test</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum consectetur sit ullam perspiciatis, deserunt.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="icon-box left media p-0"> <a href="#" class="media-left pull-left"><i class="flaticon-medical-tablets9 text-theme-colored"></i></a>
-                <div class="media-body">
-                  <h5 class="media-heading heading">Pharmacy</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum consectetur sit ullam perspiciatis, deserunt.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+ 
 
     <!-- Section: Doctors -->
     <section id="doctors">
@@ -734,7 +608,7 @@
         <div class="section-title text-center">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
-              <h2 class="text-uppercase mt-0 line-height-1">Our Doctors</h2>
+              <h2 class="text-uppercase mt-0 line-height-1">Our team</h2>
               <div class="title-icon">
                 <img class="mb-10" src="images/title-icon.png" alt="">
               </div>
@@ -851,7 +725,7 @@
         <div class="section-title text-center">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
-              <h2 class="text-uppercase mt-0 line-height-1">Our Departments</h2>
+              <h2 class="text-uppercase mt-0 line-height-1">Our Projects</h2>
               <div class="title-icon">
                 <img class="mb-10" src="images/title-icon.png" alt="">
               </div>
@@ -885,7 +759,9 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, hic.</p>
               <a href="#" class="btn-read-more text-theme-colored">Read more</a>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-30">
+          
+              <!--
+              <div class="col-xs-12 col-sm-6 col-md-3 mb-sm-30">
               <img class="img-fullwidth" alt="" src="http://placehold.it/300x200">
               <h4>Department Title</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, hic.</p>
@@ -909,73 +785,15 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, hic.</p>
               <a href="#" class="btn-read-more text-theme-colored">Read more</a>
             </div>
+              
+              -->
+              
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Section: Pricing -->
-    <section id="pricing" class="bg-silver-light">
-      <div class="container pb-30">
-        <div class="section-title text-center">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <h2 class="text-uppercase mt-0 line-height-1">Pricing</h2>
-              <div class="title-icon">
-                <img class="mb-10" src="images/title-icon.png" alt="">
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>
-            </div>
-          </div>
-        </div>
-        <div class="section-content">
-          <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4 hvr-float-shadow mb-sm-30 wow fadeInLeft animation-delay1">
-              <div class="pricing-table style1 bg-white border-10px text-center">
-                <div class="pricing-icon">
-                  <i class="flaticon-medical-teeth1"></i>
-                </div>
-                <div class="p-40">
-                  <h3 class="package-type mt-90">Dental Care</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                  <h1 class="price text-theme-colored mb-10">24<span class="font-48">%</span></h1>
-                  <h4 class="">Discount</h4>
-                  <a class="btn btn-colored btn-theme-colored text-uppercase mt-30" href="#">Get Offer!</a><br>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 hvr-float-shadow mb-sm-30 wow fadeInUp animation-delay1">
-              <div class="pricing-table style1 bg-white border-10px text-center">
-                <div class="pricing-icon">
-                  <i class="flaticon-medical-hospital35"></i>
-                </div>
-                <div class="p-40">
-                  <h3 class="package-type mt-90">Blood Test</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                  <h1 class="price text-theme-colored mb-10">15<span class="font-48">%</span></h1>
-                  <h4 class="">Discount</h4>
-                  <a class="btn btn-colored btn-theme-colored text-uppercase mt-30" href="#">Get Offer!</a><br>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 hvr-float-shadow mb-sm-30 wow fadeInRight animation-delay1">
-              <div class="pricing-table style1 bg-white border-10px text-center">
-                <div class="pricing-icon">
-                  <i class="flaticon-medical-stethoscopes"></i>
-                </div>
-                <div class="p-40">
-                  <h3 class="package-type mt-90">Medical Care</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                  <h2 class="price text-theme-colored mb-10">30<span class="font-48">%</span></h2>
-                  <h4 class="">Discount</h4>
-                  <a class="btn btn-colored btn-theme-colored text-uppercase mt-30" href="#">Get Offer!</a><br>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+   
 
     <!-- Section: gallery -->
     <section id="gallery" class="divider parallax layer-overlay overlay-white-9" data-bg-img="http://placehold.it/1920x1280" data-parallax-ratio="0.7">>
@@ -1179,7 +997,7 @@
               </div>
             </div>
             <div class="col-md-5">
-              <h3 class="title line-height-1 line-bottom mt-0 mt-sm-30 mb-30"><i class="fa fa-thumb-tack text-theme-colored mr-10"></i>Clients Say</h3>
+              <h3 class="title line-height-1 line-bottom mt-0 mt-sm-30 mb-30"><i class="fa fa-thumb-tack text-theme-colored mr-10"></i>Our collaborators</h3>
               <div class="testimonial style1 owl-carousel-1col">
                 <div class="item">
                   <div class="comment border-radius-15px">
@@ -1336,242 +1154,13 @@
       </div>
     </section>
 
-    <!-- Section: Contact -->
-    <section id="contact" class="bg-lighter">
-      <div class="container pb-0">
-        <div class="section-content">
-          <div class="row">
-          <div class="col-md-4" data-wow-duration="1.4s">
-            <img src="http://placehold.it/340x464" alt="">
-          </div>
-            <div class="col-md-8 wow fadeInRight mt-10" data-wow-duration="1.4s">
-              <h3 class="title line-bottom line-height-1 mt-0 mb-30">Make An <span class="text-theme-colored">Appointment!</span></h3>          
-              <!-- Contact Form -->
-              <form id="contact_form" name="contact_form" class="" action="includes/sendmail.php" method="post">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <div class="form-group mb-20">
-                      <input name="form_name" class="form-control" type="text" placeholder="Enter Name" required="">
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-group mb-20">
-                      <input name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-6">
-                    <div class="form-group mb-30">
-                      <div class="styled-select">
-                        <select id="car_select" name="car_select" class="form-control" required="">
-                          <option value="">- Select Your Services -</option>
-                          <option value="Orthopaedics">Orthopaedics</option>
-                          <option value="Cardiology">Cardiology</option>
-                          <option value="Neurology">Neurology</option>
-                          <option value="Dental">Dental</option>
-                          <option value="Haematology">Haematology</option>
-                          <option value="Blood Test">Blood Test</option>
-                          <option value="Emergency Care">Emergency Care</option>
-                          <option value="Outdoor Checkup">Outdoor Checkup</option>
-                          <option value="Cancer Service">Cancer Service</option>
-                          <option value="Pharmacy">Pharmacy</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-group mb-30">
-                      <input name="reservation_date" class="form-control required date-picker" type="text" placeholder="Reservation Date" aria-required="true">
-                    </div>
-                  </div>
-                </div>
-                    <div class="form-group mb-20">
-                  <textarea name="form_message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
-                </div>
-                    <div class="form-group">
-                  <input name="form_botcheck" class="form-control" type="hidden" value=""/>
-                  <button type="submit" class="btn btn-flat btn-theme-colored text-uppercase mt-0 mb-sm-30" data-loading-text="Please wait...">Send your message</button>
-                  <button type="reset" class="btn btn-flat btn-theme-colored text-uppercase mt-0 mb-sm-30">Reset</button>
-                </div>
-              </form>
-              <!-- Contact Form Validation-->
-              <script type="text/javascript">
-                $("#contact_form").validate({
-                  submitHandler: function(form) {
-                    var form_btn = $(form).find('button[type="submit"]');
-                    var form_result_div = '#form-result';
-                    $(form_result_div).remove();
-                    form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
-                    var form_btn_old_msg = form_btn.html();
-                    form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
-                    $(form).ajaxSubmit({
-                      dataType:  'json',
-                      success: function(data) {
-                        if( data.status == 'true' ) {
-                          $(form).find('.form-control').val('');
-                        }
-                        form_btn.prop('disabled', false).html(form_btn_old_msg);
-                        $(form_result_div).html(data.message).fadeIn('slow');
-                        setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
-                      }
-                    });
-                  }
-                });
-              </script>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+ 
   </div>
   <!-- end main-content -->
   
   <!-- Footer -->
   <footer id="footer" class="footer pb-0" data-bg-img="images/footer-bg.png" data-bg-color="#25272e">
-    <div class="container pt-90 pb-60">
-      <div class="row">
-        <div class="col-sm-6 col-md-3">
-          <div class="widget dark"> <img alt="" src="images/logo-wide-white.png">
-            <p class="font-12 mt-10 mb-10">Medikal is a library of health and medical templates with predefined web elements which helps you to build your medical templates best site</p>
-            <a class="btn btn-default btn-transparent btn-xs btn-flat mt-5" href="#">Read more</a>
-            <ul class="styled-icons icon-dark icon-theme-colored icon-circled icon-sm mt-20">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-skype"></i></a></li>
-              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="widget dark">
-            <h5 class="widget-title line-bottom-theme-colored-2">Latest News</h5>
-            <div class="latest-posts">
-              <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
-                <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">Sustainable Construction</a></h5>
-                  <p class="post-date mb-0 font-12">Mar 08, 2015</p>
-                </div>
-              </article>
-              <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
-                <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">Industrial Coatings</a></h5>
-                  <p class="post-date mb-0 font-12">Mar 08, 2015</p>
-                </div>
-              </article>
-              <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
-                <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">Storefront Installations</a></h5>
-                  <p class="post-date mb-0 font-12">Mar 08, 2015</p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="widget dark">
-            <h5 class="widget-title line-bottom-theme-colored-2">Quick Contact</h5>
-            <form id="footer_quick_contact_form" name="footer_quick_contact_form" class="quick-contact-form" action="includes/quickcontact.php" method="post">
-              <div class="form-group">
-                <input name="form_email" class="form-control" type="text" required="" placeholder="Enter Email">
-              </div>
-              <div class="form-group">
-                <textarea name="form_message" class="form-control" required="" placeholder="Enter Message" rows="3"></textarea>
-              </div>
-              <div class="form-group">
-                <input name="form_botcheck" class="form-control" type="hidden" value="" />
-                <button type="submit" class="btn btn-default btn-transparent btn-xs btn-flat mt-0" data-loading-text="Please wait...">Send Message</button>
-              </div>
-            </form>
-
-            <!-- Quick Contact Form Validation-->
-            <script type="text/javascript">
-              $("#footer_quick_contact_form").validate({
-                submitHandler: function(form) {
-                  var form_btn = $(form).find('button[type="submit"]');
-                  var form_result_div = '#form-result';
-                  $(form_result_div).remove();
-                  form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
-                  var form_btn_old_msg = form_btn.html();
-                  form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
-                  $(form).ajaxSubmit({
-                    dataType:  'json',
-                    success: function(data) {
-                      if( data.status == 'true' ) {
-                        $(form).find('.form-control').val('');
-                      }
-                      form_btn.prop('disabled', false).html(form_btn_old_msg);
-                      $(form_result_div).html(data.message).fadeIn('slow');
-                      setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
-                    }
-                  });
-                }
-              });
-            </script>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="widget dark">
-            <h5 class="widget-title line-bottom-theme-colored-2">Opening Hours</h5>
-            <div class="opening-hours">
-              <ul class="list list-border">
-                <li class="clearfix"> <span><i class="fa fa-clock-o mr-5"></i> Mond - Tuesday :</span>
-                  <div class="value pull-right"> 9.00 am - 10.00 pm </div>
-                </li>
-                <li class="clearfix"> <span class="text-theme-color-2"><i class="fa fa-clock-o mr-5"></i> Wednes - Thurs </span>
-                  <div class="value pull-right text-white"> 10.00 am - 8.00 pm </div>
-                </li>
-                <li class="clearfix"> <span><i class="fa fa-clock-o mr-5"></i> Sat - Monday :</span>
-                  <div class="value pull-right"> 9.00 am - 10.00 pm </div>
-                </li>
-                <li class="clearfix"> <span><i class="fa fa-clock-o mr-5"></i> Sunday :</span>
-                  <div class="value pull-right"> <span class="text-highlight bg-theme-colored text-white">Colsed</span>  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="horizontal-contact-widget mt-30 pt-30 text-center">
-            <div class="col-sm-12 col-sm-4">
-              <div class="each-widget"> <i class="pe-7s-phone font-36 mb-10"></i>
-                <h5 class="text-white">Call Us</h5>
-                <p>Phone: <a href="#">+262 695 2601</a></p>
-              </div>
-            </div>
-            <div class="col-sm-12 col-sm-4 mt-sm-50">
-              <div class="each-widget"> <i class="pe-7s-map font-36 mb-10"></i>
-                <h5 class="text-white">Address</h5>
-                <p>121 King Street, Australia</p>
-              </div>
-            </div>
-            <div class="col-sm-12 col-sm-4 mt-sm-50">
-              <div class="each-widget"> <i class="pe-7s-mail font-36 mb-10"></i>
-                <h5 class="text-white">Email</h5>
-                <p><a href="#">you@yourdomain.com</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <ul class="list-inline styled-icons icon-hover-theme-colored icon-gray icon-circled text-center mt-30 mb-10">
-            <li><a href="#"><i class="fa fa-facebook"></i></a> </li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a> </li>
-            <li><a href="#"><i class="fa fa-pinterest"></i></a> </li>
-            <li><a href="#"><i class="fa fa-google-plus"></i></a> </li>
-            <li><a href="#"><i class="fa fa-youtube"></i></a> </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    
     <div class="container-fluid bg-theme-colored p-20">
       <div class="row text-center">
         <div class="col-md-12">
