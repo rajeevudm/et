@@ -76,6 +76,7 @@
               <li class="active"><a href="#home">Home</a>
                 <ul class="dropdown">
                   <li><a href="#">Bel Air Campus</a>
+                      <!--
                     <ul class="dropdown">
                       <li><a href="index-mp-layout1.html">Layout1</a></li>
                       <li><a href="index-mp-layout2.html">Layout2</a></li>
@@ -86,6 +87,7 @@
                       <li><a href="index-mp-layout7.html">Layout7</a></li>
                       <li><a href="index-mp-layout8.html">Layout8</a></li>
                     </ul>
+                      -->
                   </li>
                   <li><a href="#">Department of Emerging Technologies</a>
                     <ul class="dropdown">
