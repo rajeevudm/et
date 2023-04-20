@@ -365,7 +365,7 @@
                                              data-splitin="none" 
                                              data-splitout="none" 
                                              data-responsive_offset="on"
-                                             style="z-index: 7; white-space: nowrap; font-weight:bolder; font-weight:700;">We organise
+                                             style="z-index: 7; white-space: nowrap; font-weight:bolder; font-weight:700;">A multitude of
                                         </div>
 
                                         <!-- LAYER NR. 2 -->
