@@ -204,7 +204,7 @@
                                              data-splitin="none" 
                                              data-splitout="none" 
                                              data-responsive_offset="on"
-                                             style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:600;">Every day we bring hope to millions of children in the world's<br>  hardest places as a sign of God's unconditional love.
+                                             style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:600;">A Center of Research with three labs : Remote Sensing & Data, Intelligent Systems and BioInformatics
                                         </div>
 
                                         <!-- LAYER NR. 4 -->
@@ -309,7 +309,7 @@
                                              data-splitin="none" 
                                              data-splitout="none" 
                                              data-responsive_offset="on"
-                                             style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:600;">Every day we bring hope to millions of children in the world's<br>  hardest places as a sign of God's unconditional love.
+                                             style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:600;">We solve real-life problems having an impact on economy and society.
                                         </div>
 
                                         <!-- LAYER NR. 4 -->
@@ -416,7 +416,7 @@
                                              data-splitin="none" 
                                              data-splitout="none" 
                                              data-responsive_offset="on"
-                                             style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:600;">Every day we bring hope to millions of children in the world's<br>  hardest places as a sign of God's unconditional love.
+                                             style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:600;">Our research leads to knowledge transfer to a wider audience.
                                         </div>
 
                                         <!-- LAYER NR. 4 -->
