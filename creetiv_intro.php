@@ -259,7 +259,7 @@
                                              data-splitin="none" 
                                              data-splitout="none" 
                                              data-responsive_offset="on"
-                                             style="z-index: 7; white-space: nowrap; font-weight:bolder;  font-weight:700;">Research to
+                                             style="z-index: 7; white-space: nowrap; font-weight:bolder;  font-weight:700;">From Research to
                                         </div>
 
                                         <!-- LAYER NR. 2 -->
@@ -284,7 +284,7 @@
                                              data-splitin="none" 
                                              data-splitout="none" 
                                              data-responsive_offset="on"
-                                             style="z-index: 7; white-space: nowrap; font-weight:800;">Practice, Policy and Publications 
+                                             style="z-index: 7; white-space: nowrap; font-weight:800;">Practices, Policies and Publications 
                                         </div>
 
                                         <!-- LAYER NR. 3 -->
